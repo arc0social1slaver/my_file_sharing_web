@@ -1,0 +1,4 @@
+syms x
+y=x^2/(x^4+1)
+g=(int(y,x))
+disp(g)
